@@ -1,0 +1,218 @@
+{
+  "label": "Évolution de l'interface",
+  "notes": "Six jalons choisis (premiers écrans, tableau de bord 2024, premier assistant, tableau de bord IA, ancien puis nouveau tableau de bord) : la date, la capture réelle de l'interface à cette date et ce qu'elle montre. Les autres captures sont gardées dans closing.json (clé _snapshotsRetirees). Les captures sont produites en reconstruisant chaque commit avec des données fictives (tools/snapshots). Ensuite le projet continue d'évoluer. Dernier écran : la page de connexion, comparée entre 2023 (visuel fixe) et 2026 (le fond est une photo tirée de l'API Unsplash à chaque visite). Les quatre photos affichées sont de vraies photos Unsplash (licence Unsplash) ; les captures sont produites par tools/snapshots/login.mjs.",
+  "title": "L'interface au fil des mois",
+  "captureManquante": "Capture à venir",
+  "snapshots": [
+    {
+      "date": "28 juin 2023",
+      "titre": "Les premiers écrans",
+      "fonctions": [
+        "Création d'un parcours",
+        "Informations, dates et tags",
+        "Ressources et contacts"
+      ],
+      "image": "assets/snapshots/2023-06-28-8204569.webp",
+      "_commit": "8204569ef"
+    },
+    {
+      "date": "5 mars 2024",
+      "titre": "Le tableau de bord",
+      "fonctions": [
+        "Navigation latérale",
+        "Statistiques et graphiques",
+        ""
+      ],
+      "image": "assets/snapshots/2024-03-05-da283f2.webp",
+      "_commit": "da283f2a2"
+    },
+    {
+      "date": "8 septembre 2025",
+      "titre": "Le premier assistant",
+      "fonctions": [
+        "Premier nom de l'assistant : « A.L.A.A. »",
+        "Questions en langage naturel",
+        ""
+      ],
+      "image": "assets/snapshots/2025-09-08-a1a615e.webp",
+      "_commit": "a1a615ed9"
+    },
+    {
+      "date": "5 mars 2026",
+      "titre": "Le tableau de bord IA",
+      "fonctions": [
+        "Consommation de tokens",
+        "Utilisation par promotion",
+        ""
+      ],
+      "image": "assets/snapshots/2026-03-05-ef6724e.webp",
+      "_commit": "ef6724e3c"
+    },
+    {
+      "date": "5 mars 2026",
+      "titre": "L'ancien tableau de bord",
+      "fonctions": [
+        "Actions rapides en boutons",
+        "Tableau des derniers parcours",
+        ""
+      ],
+      "image": "assets/snapshots/2026-03-05-ef6724e-tableau-de-bord.webp",
+      "_commit": "ef6724e3c"
+    },
+    {
+      "date": "15 octobre 2026",
+      "titre": "Le nouveau tableau de bord",
+      "fonctions": [
+        "Derniers parcours et modules",
+        "Actions rapides",
+        ""
+      ],
+      "image": "assets/snapshots/2026-10-15-5708778.webp",
+      "_commit": "57087787e"
+    },
+    {
+      "date": "15 octobre 2026",
+      "titre": "La page de connexion",
+      "fonctions": [
+        "Une photo Unsplash à chaque visite",
+        "Thème clair ou sombre, photo adaptée",
+        "Photo de secours si l'API est indisponible"
+      ],
+      "_commit": "57087787e"
+    }
+  ],
+  "final": {
+    "message": "Le projet continue d'évoluer",
+    "demo": "Voir la démo",
+    "adresse": "lxp.dev.step.eco"
+  },
+  "comparatif": {
+    "debut": {
+      "annee": "2023",
+      "legende": "Un visuel fixe",
+      "image": "assets/connexion/debut.webp",
+      "alt": "Page de connexion de 2023 : formulaire sur fond uni, image décorative fixe"
+    },
+    "fin": {
+      "annee": "2026",
+      "legende": "Une photo Unsplash",
+      "alt": "Page de connexion de 2026 : fond en tuiles tiré d'une photo Unsplash",
+      "images": [
+        "assets/connexion/fin-1.webp",
+        "assets/connexion/fin-2.webp",
+        "assets/connexion/fin-3.webp",
+        "assets/connexion/fin-4.webp"
+      ]
+    },
+    "requete": "abstract architecture minimal",
+    "requeteLibelle": "Recherche Unsplash",
+    "photos": [
+      {
+        "image": "assets/connexion/unsplash-1.webp",
+        "alt": "Façade blanche, architecture minimale"
+      },
+      {
+        "image": "assets/connexion/unsplash-2.webp",
+        "alt": "Architecture abstraite en noir et blanc"
+      },
+      {
+        "image": "assets/connexion/unsplash-3.webp",
+        "alt": "Béton brutaliste et escaliers"
+      },
+      {
+        "image": "assets/connexion/unsplash-4.webp",
+        "alt": "Relief de béton géométrique"
+      }
+    ]
+  },
+  "_snapshotsRetirees": [
+    {
+      "date": "4 septembre 2023",
+      "titre": "L'édition d'un parcours",
+      "fonctions": [
+        "Un parcours en cinq étapes",
+        "Objectifs, compétences et modules",
+        ""
+      ],
+      "image": "assets/snapshots/2023-09-04-dafd74e.webp",
+      "_commit": "dafd74ef8"
+    },
+    {
+      "date": "29 décembre 2023",
+      "titre": "Le profil de l'utilisateur",
+      "fonctions": [
+        "Informations personnelles",
+        "Calendrier, évaluations et badges",
+        ""
+      ],
+      "image": "assets/snapshots/2023-12-29-5d400a3.webp",
+      "_commit": "5d400a32f"
+    },
+    {
+      "date": "27 septembre 2024",
+      "titre": "La liste des groupes",
+      "fonctions": [
+        "Groupes d'apprenants",
+        "Recherche et activation",
+        ""
+      ],
+      "image": "assets/snapshots/2024-09-27-ac6b6f4.webp",
+      "_commit": "ac6b6f46a"
+    },
+    {
+      "date": "19 décembre 2024",
+      "titre": "La médiathèque",
+      "fonctions": [
+        "Images, vidéos, audios, documents",
+        "Taille et nombre d'utilisations",
+        ""
+      ],
+      "image": "assets/snapshots/2024-12-19-e576c18.webp",
+      "_commit": "e576c189f"
+    },
+    {
+      "date": "24 avril 2025",
+      "titre": "La liste des parcours",
+      "fonctions": [
+        "Tableau des parcours",
+        "Recherche et filtre par formation",
+        ""
+      ],
+      "image": "assets/snapshots/2025-04-24-d8027b1.webp",
+      "_commit": "d8027b163"
+    },
+    {
+      "date": "2 décembre 2025",
+      "titre": "Le calendrier",
+      "fonctions": [
+        "Emploi du temps de la semaine",
+        "Cours planifiés par module",
+        ""
+      ],
+      "image": "assets/snapshots/2025-12-02-7d3d8fc.webp",
+      "_commit": "7d3d8fc3b"
+    },
+    {
+      "date": "15 octobre 2026",
+      "titre": "La gestion des parcours",
+      "fonctions": [
+        "Formations et parcours en cartes",
+        "Recherche d'un parcours",
+        ""
+      ],
+      "image": "assets/snapshots/2026-10-15-5708778-parcours.webp",
+      "_commit": "57087787e"
+    },
+    {
+      "date": "15 octobre 2026",
+      "titre": "La médiathèque",
+      "fonctions": [
+        "Images, vidéos, audios, fichiers",
+        "Recherche et tri",
+        ""
+      ],
+      "image": "assets/snapshots/2026-10-15-5708778-mediatheque.webp",
+      "_commit": "57087787e"
+    }
+  ]
+}

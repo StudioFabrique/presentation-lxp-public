@@ -1,0 +1,219 @@
+{
+  "label": "Accompagner chaque apprenant",
+  "notes": "Progression de l'apprenant (reprise de la dernière leçon, avancement, profil d'apprentissage) ; humeur du jour : une barre se règle et le pictogramme se déforme en relief (morphing 3D), puis un commentaire est envoyé ; alerte de décrochage avec les données utilisées ; retour de l'équipe sur l'analyse. Données fictives.",
+  "preferences": {
+    "intro": {
+      "h1": "Chaque apprenant **garde sa progression**",
+      "lede": "Il reprend là où il s'était arrêté, suit son avancement et renseigne son rythme et ses préférences d'apprentissage."
+    },
+    "carte": {
+      "entete": {
+        "h3": "Espace de l'apprenant"
+      },
+      "rcols": {
+        "rcol": [
+          {
+            "who": [
+              "Rythme préféré",
+              "Préférences"
+            ],
+            "paces": {
+              "pace": [
+                "Progressif",
+                "Standard",
+                "Soutenu",
+                "Sans préférence"
+              ],
+              "pace-description": [
+                "Avancer tranquillement, avec davantage d'explications.",
+                "Un équilibre entre explications et mise en pratique.",
+                "Aller plus vite et droit à l'essentiel.",
+                "Adapter le rythme selon le contexte."
+              ]
+            },
+            "pdesc": "Avancer tranquillement, avec davantage d'explications.",
+            "chips": {
+              "cchip": [
+                "Exemples concrets",
+                "Pas-à-pas",
+                "Synthèse",
+                "Questions d’entraînement"
+              ]
+            },
+            "titre": "Mon profil d'apprentissage",
+            "aide": "Renseigné par l'apprenant"
+          },
+          {
+            "reprise": {
+              "titre": "Reprendre là où je m'étais arrêté",
+              "lignes": [
+                {
+                  "module": "Construire une interface",
+                  "cours": "Cours 1 : Les bases du HTML",
+                  "etiquette": "HTML",
+                  "progression": "2 / 3",
+                  "prochaine": "La structure d'une page"
+                },
+                {
+                  "module": "Développer une API",
+                  "cours": "Cours 2 : Les routes HTTP",
+                  "etiquette": "API REST",
+                  "progression": "1 / 4",
+                  "prochaine": "Définir une route"
+                }
+              ]
+            },
+            "avancement": {
+              "titre": "Mon avancement",
+              "module": "Construire une interface",
+              "valeur": "68 %"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "humeur": {
+    "intro": {
+      "h1": "Un point **sur son ressenti**",
+      "lede": "L’apprenant règle chaque jour comment il se sent, avec un mot s’il le souhaite. L’équipe le voit."
+    },
+    "carte": {
+      "entete": {
+        "h3": "Comment vous sentez-vous aujourd'hui ?"
+      },
+      "mlvs": {
+        "mlv": [
+          {
+            "aria": "Niveau 1"
+          },
+          {
+            "aria": "Niveau 2"
+          },
+          {
+            "aria": "Niveau 3"
+          },
+          {
+            "aria": "Niveau 4"
+          },
+          {
+            "aria": "Niveau 5"
+          }
+        ]
+      },
+      "pied": {
+        "bouton": "Envoyer"
+      },
+      "toast": "Feedback envoyé !",
+      "slider": {
+        "aria": "Niveau de ressenti, de 1 à 5"
+      },
+      "commentaire": {
+        "libelle": "Commentaire (facultatif)",
+        "exemple": "Je bloque sur la dernière leçon."
+      }
+    }
+  },
+  "alerte": {
+    "intro": {
+      "h1": "Repérer **avant le décrochage**",
+      "lede": "Un signal arrive en amont, avec les données qui l’expliquent."
+    },
+    "carte": {
+      "entete": {
+        "h3": "Alertes",
+        "alr": "1 cas critique"
+      },
+      "alrow": {
+        "b": "Promotion A",
+        "span": "Risque de décrochage"
+      },
+      "sig": {
+        "b": "Engagement en perte de vitesse",
+        "p": "Plus de 15 jours sans activité et au plus deux jours de connexion sur la période."
+      },
+      "chart": {
+        "leg": {
+          "ok": {
+            "texte": "Réussite"
+          },
+          "wr": {
+            "texte": "Échec"
+          },
+          "ko": {
+            "texte": "Abandon"
+          },
+          "small": "Probabilité estimée"
+        },
+        "axe": {
+          "y": [
+            "0 %",
+            "25 %",
+            "50 %",
+            "75 %",
+            "100 %"
+          ],
+          "x": [
+            "6 oct.",
+            "13 oct.",
+            "20 oct.",
+            "27 oct.",
+            "3 nov.",
+            "10 nov."
+          ]
+        },
+        "callout": "Abandon : 56 %"
+      },
+      "used": {
+        "p": [
+          "Jours sans activité : 16 (seuil : 15)",
+          "Jours de connexion : 2 (seuil : 2)"
+        ]
+      },
+      "donnees": {
+        "voir": "Voir les données utilisées",
+        "masquer": "Masquer les données utilisées"
+      }
+    }
+  },
+  "retour": {
+    "intro": {
+      "h1": "L’équipe **juge l’analyse**",
+      "lede": "Le formateur dit si l’analyse était pertinente, et ce que devient l’apprenant."
+    },
+    "carte": {
+      "entete": {
+        "h3": "Votre retour sur cette analyse"
+      },
+      "recap": {
+        "span": "Promotion A",
+        "b": "Engagement en perte de vitesse",
+        "em": "Risque de décrochage"
+      },
+      "who": [
+        "Choisir un avis",
+        "Devenir de l’apprenant"
+      ],
+      "avis": {
+        "av": [
+          "Analyse pertinente",
+          "Risque surestimé",
+          "Risque sous-estimé",
+          "Je ne peux pas encore me prononcer"
+        ]
+      },
+      "chips": {
+        "cchip": [
+          "Réussite",
+          "Échec",
+          "Abandon",
+          "Pas encore connu"
+        ]
+      },
+      "pied": {
+        "bouton": "Enregistrer le retour"
+      },
+      "toast": "Retour enregistré."
+    }
+  }
+}
