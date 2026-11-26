@@ -1,6 +1,6 @@
 {
   "label": "Évolution de l'interface",
-  "notes": "Six jalons choisis (premiers écrans, tableau de bord 2024, premier assistant, tableau de bord IA, ancien puis nouveau tableau de bord) : la date, la capture réelle de l'interface à cette date et ce qu'elle montre. Les autres captures sont gardées dans closing.json (clé _snapshotsRetirees). Les captures sont produites en reconstruisant chaque commit avec des données fictives (tools/snapshots). Ensuite le projet continue d'évoluer. Dernier écran : la page de connexion, comparée entre 2023 (visuel fixe) et 2026 (le fond est une photo tirée de l'API Unsplash à chaque visite). Les quatre photos affichées sont de vraies photos Unsplash (licence Unsplash) ; les captures sont produites par tools/snapshots/login.mjs.",
+  "notes": "Cinq jalons choisis (premiers écrans, tableau de bord 2024, tableau de bord IA, ancien puis nouveau tableau de bord) : la date, la capture réelle de l'interface à cette date et ce qu'elle montre. Les autres captures sont gardées dans closing.json (clé _snapshotsRetirees). Les captures sont produites en reconstruisant chaque commit avec des données fictives (tools/snapshots). Ensuite le projet continue d'évoluer. Dernier écran : la page de connexion, comparée entre 2023 (visuel fixe) et 2026 (le fond est une photo tirée de l'API Unsplash à chaque visite). Les quatre photos affichées sont de vraies photos Unsplash (licence Unsplash) ; les captures sont produites par tools/snapshots/login.mjs.",
   "title": "L'interface au fil des mois",
   "captureManquante": "Capture à venir",
   "snapshots": [
@@ -25,17 +25,6 @@
       ],
       "image": "assets/snapshots/2024-03-05-da283f2.webp",
       "_commit": "da283f2a2"
-    },
-    {
-      "date": "8 septembre 2025",
-      "titre": "Le premier assistant",
-      "fonctions": [
-        "Premier nom de l'assistant : « A.L.A.A. »",
-        "Questions en langage naturel",
-        ""
-      ],
-      "image": "assets/snapshots/2025-09-08-a1a615e.webp",
-      "_commit": "a1a615ed9"
     },
     {
       "date": "5 mars 2026",
